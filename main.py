@@ -3,7 +3,7 @@ from pytube import Playlist
 import os
 import shutil
 
-path = 'C:\\Users\\luizc\\OneDrive\\Documentos\\mscpython'
+path = '%USERPROFILE%\\Music'
 
 print("Por favor responda com 1 = unica ou 2 = playlist, (Sem acentos!)\n\n")
 escolha = int(input("Você quer fazer o download de uma musica única ou de uma playlist ? :"))
