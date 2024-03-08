@@ -5,7 +5,7 @@ import shutil
 
 path = '%USERPROFILE%\\Music'
 
-print("Por favor responda com 1 = unica ou 2 = playlist, (Sem acentos!)\n\n")
+print("Por favor responda com 1 = unica ou 2 = playlist \n\n")
 escolha = int(input("Você quer fazer o download de uma musica única ou de uma playlist ? :"))
 
 def trocar_extensao_pasta(path):
